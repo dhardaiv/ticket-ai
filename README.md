@@ -1,8 +1,6 @@
 # PPO Ticket Delegation Agent
 
-> **Status:**  *This project is still in progress*  
-
-This repository contains a **Proximal Policy Optimization (PPO) agent** designed to **automatically delegate tickets to the most suitable team** based on ticket features and historical performance. The goal is to optimize workload distribution while minimizing SLA breaches and improving resolution efficiency.  
+This repository proposes a deep RL PPO agent** designed to **automatically delegate tickets to the most suitable team** based on ticket features and historical performance. The goal is to optimize workload distribution while minimizing SLA breaches and improving resolution efficiency.  
 
 ---
 
