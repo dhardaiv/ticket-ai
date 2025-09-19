@@ -4,17 +4,19 @@ This repository proposes a deep RL PPO agent** designed to **automatically deleg
 
 ---
 
-## 🚀 Features
+##  Model Inputs
 
-- **Custom Gymnasium Environment** – Simulates a ticketing system with teams, tickets, priorities, and SLA rules.  
-- **PPO Agent (Stable-Baselines3)** – Reinforcement learning agent that learns optimal delegation policies.  
-- **Reward Function** – Configurable design to balance between SLA compliance, resolution efficiency, and fairness across teams.  
-- **Flexible Inputs** – Accepts structured ticket data (e.g., features like priority, type, category).  
-- **Logging & Evaluation** – Training logs, performance metrics, and model checkpoints included.  
-
+- Service desk tickets
+- Service Level Agreements corresponding to each ticket
+- IT Teams
+- Past and relevant ticket history
 ---
 
-## 📚 Libraries & Tools
+##  Model Outputs
+
+- Recommended team for escalation
+---
+## Relevant Libraries
 
 This project leverages the following libraries and frameworks:
 
